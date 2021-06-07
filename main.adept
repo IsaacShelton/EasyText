@@ -1,0 +1,13 @@
+
+pragma compiler_version '2.5'
+
+import captain
+
+func main {
+    captOnDraw(func &onDraw)
+    captStart("Easy Text")
+}
+
+func onDraw {
+    captDrawText("Hello World", 16.0f, 16.0f)
+}
